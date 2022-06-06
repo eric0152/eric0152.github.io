@@ -1,0 +1,91 @@
+<!DOCTYPE html5>
+<html>
+	<head>
+		<title>My CV</title>
+
+		<script> 
+			function myFunction(){
+			document.getElementById("show").innerHTML = "其實沒東西啦哈哈";
+			}
+		</script>
+		
+		<link rel="stylesheet" href="cv.css">
+		<!---cv.css --->
+		
+		<meta charset="utf-8">
+		
+	</head>
+	<body>
+		<table border="3" style="margin-left: auto; margin-right: auto;"> 
+		
+			<caption><h1>這是我的個人簡歷</h1></caption>
+			
+			<thead style="background-color:#FFE681">
+				<tr>
+					<th>問題：</th><th>回答</th>
+				</tr>
+			</thead>
+			
+			<tbody style="background-color:#AEE1CD">
+				<tr>
+					<td>
+						<p style="color:blue">姓名：</p>
+					</td>
+				
+					<td>
+						葉宸維<span style="color:red">(Eric Yeh)</span>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<p style="color:blue">照片：</p>
+					</td> 
+					
+					<td>
+						<img src="eric.jpg" alt="我的照片" width ="300" height="500">
+					</td> 
+				</tr>
+				
+				<tr>
+					<td>
+						<p style="color:blue">興趣：</p>
+					</td> 
+					
+					<td>
+						<ul>
+							<li><p style="color:blue">看小說</p></li>
+							<li><p style="color:blue">逛社群媒體</p></li> 
+							<li>看實況主，<span style="color:red">最近開始看VTuber</span></li>
+						</ul>
+					</td> 
+				</tr>
+				
+				<tr>
+					<td>
+						<p style="color:blue">推薦的實況主或VTuber：</p>
+					</td> 
+
+					<td>
+						<ul>
+							<li><a href="https://www.youtube.com/c/noah963" target="_blank">胡桃Noah
+							<li><a href="https://www.twitch.tv/genburten" target="_blank">Genburten
+						</ul>
+					</td>
+				</tr>
+			<tfoot style="background-color:#D1CDDDA">
+				<tr>
+					<td colspan="3">
+						<center>
+							<p id="show">點下方的按鈕來看更多關於我的資訊</p>
+							<button type="button" onclick="myFunction()">點我!!</button>
+							<br>
+							<p class = "b">2022/6/6</p>
+							<p class = "c">16:20</p>
+							<p class = "d">The time I finnished editing</p>
+							<p class = "e">index.html</p>
+							<img src="https://media.istockphoto.com/videos/thanks-for-watching-text-animation-video-id1336236534?b=1&k=20&m=1336236534&s=640x640&h=dxuWu1LUwp0fyCYy_KH6UiM2KMPCt5LR9IdVGBo1zxQ=" alt="謝謝觀看" width ="300" height="200">
+						</center>
+					</td>
+				</tr>
+	</body>

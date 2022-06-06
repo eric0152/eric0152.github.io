@@ -1,0 +1,27 @@
+a:link{
+	color: red;
+}
+
+a:visited{
+	color: red;
+}
+
+.b{
+	background-color: blue;
+	color: white;
+}
+
+.c{
+	background-color: red;
+	color: white;
+}
+
+.d{
+	background-color: yellow;
+	color: white;
+}
+
+.e{
+	background-color: green;
+	color: white;
+}
